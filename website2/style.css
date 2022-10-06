@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Sora, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 20, 0.3)), url(Images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+}
+
+nav {
+  display: flex;
+  padding: 2% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.cs {
+  width: 55px;
+  color: white;
+}
+
+.nav-butt {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-butt ul {
+  width: 100%;
+}
+
+.nav-butt ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 70px;
+  position: relative;
+  text-align: center;
+}
+
+.nav-butt ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav-butt ul li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 300ms;
+}
+
+.nav-butt ul li a:hover::after {
+  width: 100%;
+}
+
+.text-box {
+  text-align: center;
+  padding: 220px;
+  font-size: 22px;
+  color: white;
+}
+
+.trendbutt {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 1s;
+  margin-top: 8px;
+}
+
+.trendbutt:hover {
+  border: 1px solid purple;
+  background: purple;
+  transition: 0.5s;
+}
+
+.citat {
+  margin: 10px;
+}
+
+.item {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+}
+
+.item h2 {
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+.seccol {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  width: 300px;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 20, 0.3)), transparent;
+  margin-left: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.seccol img {
+  width: 350px;
+  margin-top: 0px;
+  margin-left: -30px;
+}
+
+.firstcol {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  width: 300px;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 20, 0.3)), transparent;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.firstcol img {
+  width: 350px;
+  margin-top: 0px;
+  margin-left: -30px;
+}
+
+.firstcol .stock {
+  color: rgb(80, 200, 120);
+}
+
+.seccol .stock {
+  color: rgb(80, 200, 120);
+}
+
+.Items{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contacts-text{
+  float: left;
+  width: 50%;
+  padding: 35px 50px 250px 50px;
+  width: 300px;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 20, 0.3)), transparent;
+  margin-left: 380px;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+.contacts{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 35px;
+  margin-left: 650px;
+  margin-right: 650px;
+}
+
+.contacts-text .jmeno{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.contacts-text h4{
+  font-size: 15px;
+  color: white;
+  margin-top: 20px;
+}
+.contacts-text .own{
+  font-size: 15px;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+iframe{
+  margin-top: 100px;
+  margin-left: 380px;
+}
+
