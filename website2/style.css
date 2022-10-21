@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Sora, sans-serif;
+  color: white;
 }
 
 body {
@@ -19,20 +20,14 @@ nav {
   padding: 2% 5%;
   justify-content: space-between;
   align-items: center;
-}
-
-img.cs {
-  width: 55px;
-  color: white;
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 20, 0.3));
 }
 
 .nav-butt {
   flex: 1;
   text-align: center;
-}
-
-.nav-butt ul {
-  width: 100%;
 }
 
 .nav-butt ul li {
@@ -47,6 +42,7 @@ img.cs {
   color: white;
   text-decoration: none;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .nav-butt ul li a::after {
@@ -82,16 +78,13 @@ img.cs {
   background-color: transparent;
   transition: background-color 1s;
   margin-top: 8px;
+  border-radius: 10px;
 }
 
 .trendbutt:hover {
   border: 1px solid purple;
   background: purple;
   transition: 0.5s;
-}
-
-.citat {
-  margin: 10px;
 }
 
 .item {
@@ -116,6 +109,7 @@ img.cs {
   margin-left: 20px;
   text-decoration: none;
   margin-top: 10px;
+  border-radius: 20px;
 }
 
 .seccol img {
@@ -132,10 +126,11 @@ img.cs {
   background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 20, 0.3)), transparent;
   margin-left: 20px;
   text-decoration: none;
+  border-radius: 20px;
+  padding-bottom: 500px;
 }
 
 .firstcol img {
-  width: 350px;
   margin-top: 0px;
   margin-left: -30px;
 }
@@ -156,23 +151,28 @@ img.cs {
 }
 
 .contacts-text{
-  float: left;
-  width: 50%;
+  display: inline-block;
+  width: 40%;
   padding: 35px 50px 250px 50px;
   width: 300px;
   background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 20, 0.3)), transparent;
-  margin-left: 380px;
-  margin-top: 100px;
   text-decoration: none;
+  border-radius: 20px;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-right: 100px;
 }
 
 .contacts{
+  position: relative;
+  text-align: center;
+}
+
+.contacts p{
   font-size: 50px;
   color: white;
   text-align: center;
   padding-top: 35px;
-  margin-left: 650px;
-  margin-right: 650px;
 }
 
 .contacts-text .jmeno{
@@ -193,7 +193,77 @@ img.cs {
   margin-bottom: 10px;
 }
 iframe{
-  margin-top: 100px;
-  margin-left: 380px;
+  border-radius: 20px;
+}
+.iframos{
+display: inline-block;
+margin-top: 50px;
 }
 
+.item-nadpis{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.item-popis{
+  display: block;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 20, 0.3)), transparent;
+  margin-top: 50px;
+  border-radius: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 300px;
+}
+
+.item-popis img{
+  width: 800px;
+  margin-left: 100px;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 20, 0.7)), transparent;
+  border-radius: 50px;
+  float: left;
+}
+
+.item-popis h2{
+  text-align: center;
+  padding-top: 100px;
+}
+.item-popis h3{
+  text-align: center;
+  margin-top: 25px;
+}
+.item-popis h4{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.buybutt {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 1s;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.buybutt:hover {
+  border: 1px solid purple;
+  background: purple;
+  transition: 0.5s;
+}
+
+.buybuttdiv{
+  text-align: center;
+}
+.nevimuz{
+  width: 900px;
+}
