@@ -110,6 +110,7 @@ nav {
   text-decoration: none;
   margin-top: 10px;
   border-radius: 20px;
+  margin-bottom: 15px;
 }
 
 .seccol img {
@@ -118,7 +119,7 @@ nav {
   margin-left: -30px;
 }
 
-.firstcol {
+.firstcol{
   float: left;
   width: 50%;
   padding: 15px;
@@ -127,7 +128,8 @@ nav {
   margin-left: 20px;
   text-decoration: none;
   border-radius: 20px;
-  padding-bottom: 500px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .firstcol img {
@@ -304,7 +306,7 @@ iframe {
   border: 10px solid black;
 }
 
-.asd {
+.obrazky {
   display: flex;
 }
 
@@ -313,14 +315,21 @@ iframe {
   padding: 15px 40px
 }
 
-.asd img {
+.obrazky img {
   border: 2px solid black;
 }
 
-.asd img:hover {
+.obrazky img:hover {
   border: 2px solid blueviolet;
 }
 
+.css{
+  display: none;
+}
+
+.hide{
+  display: none;
+}
 
 @media (max-width: 1200px) {
   .nav-butt ul li {
@@ -337,6 +346,14 @@ iframe {
 }
 
 @media (max-width: 900px) {
+  body{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 20, 0.3)), url(bg2.png);
+  }
+
+  nav{
+    position: relative;
+  }
+
   .nav-butt ul li {
     display: block;
   }
@@ -344,5 +361,30 @@ iframe {
   .nav-butt ul li a:hover::after {
     width: 15%;
   }
+
+  .contacts-text{
+    margin: 50px 0px 0px 0px;
+  }
+
+  .obrazky{
+    display: block;
+    text-align: center;
+  }
+
+  .firstcol .seccol{
+    display: block;
+  }
+
+  .css{
+    display: block;
+    margin: auto;
+  }
+  .hide{
+    display: block;
+  }
+  .cs{
+    display: none;
+  }
+
 
 }
