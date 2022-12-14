@@ -7,44 +7,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shop</title>
   <link rel="stylesheet" href="style.css">
+  <link href="lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet" />
+  <script src="lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
 </head>
 
-<body>
-  <section class="header">
-    <nav>
-      <!--<a href="cart.html"><img class=cs src="images/shopping-cart.png" alt=""></a>-->
-      <div class="nav-butt">
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="items.html">PRODUCTS</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-          <li><a href="about.html">GALERIE</a></li>
-        </ul>
-      </div>
-    </nav>
-  </section>
-  <div>
-    <h1 class="item-nadpis">NVIDIA RTX 5090</h1>
-  </div>
-  <div class="item-popis">
-    <img src="5090.png" alt="">
-    <h2>NVIDIA RTX 5090 is very powerful GPU and it is only for proffessional use</h2>
-    <h3>CUDA Cores:&nbsp;69420&nbsp;Cores <br>
-      Base Clock:&nbsp;3500&nbsp;MHz <br>
-      Boost Clock:&nbsp;4590&nbsp;MHz <br>
-      Memory Clock:&nbsp;8000&nbsp;MHz <br>
-      Memory Size:&nbsp;64&nbsp;GB <br>
-    </h3>
-    <h4>69$</h4>
-    <div class="buybuttdiv">
-      <a href="" class="buybutt">Add to cart</a>
+<section class="header">
+  <nav>
+    <div class="nav-butt">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="items.html">PRODUCTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="about.html">GALERIE</a></li>
+      </ul>
+      <li class="hide"><a href="cart.html"><img class="css" src="shopping-cart.png" alt=""></a></li>
     </div>
+    <a href="cart.html"><img class=cs src="shopping-cart.png" alt=""></a>
+  </nav>
+</section>
+<div>
+  <h1 class="item-nadpis">NVIDIA RTX 5090</h1>
+</div>
+<div class="item-popis">
+  <a href="5090.png" data-lightbox="image1"><img src="5090.png" alt="5090"></a>
+  <h2>NVIDIA RTX 5090 is very powerful GPU and it is only for proffessional use</h2>
+  <h3>CUDA Cores:&nbsp;69420&nbsp;Cores <br>
+    Base Clock:&nbsp;3500&nbsp;MHz <br>
+    Boost Clock:&nbsp;4590&nbsp;MHz <br>
+    Memory Clock:&nbsp;8000&nbsp;MHz <br>
+    Memory Size:&nbsp;64&nbsp;GB <br>
+  </h3>
+  <h4>69$</h4>
+  <div class="buybuttdiv">
+    <a href="" class="buybutt">Add to cart</a>
   </div>
+</div>
 </body>
 
 
